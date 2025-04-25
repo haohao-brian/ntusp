@@ -5,7 +5,7 @@ qemu-img create -f raw ~/qemu/ubuntu-latest.raw 40G
 ```
 For the first time
 ```
-qemu % qemu-system-aarch64 \
+qemu-system-aarch64 \
 -monitor stdio \
 -M virt, highmem=off \
 -accel hvf \
