@@ -10,7 +10,7 @@ qemu-system-aarch64 \
 -M virt, highmem=off \
 -accel hvf \
 -cpu host
--Smp 4\
+-smp 4\
 -m 3000 \
 -bios ~/qemu/QEMU_EFI.fd \
 -device virtio-gpu-pci \
