@@ -1,9 +1,10 @@
-Step 1: Install Ubuntu on macos by QEMU
+sourece:https://theboreddev.com/run-ubuntu-on-mac-using-qemu/
+##Step 1: Install Ubuntu on macos by QEMU
 For the first time
 ```
 qemu-img create -f raw ~/qemu/ubuntu-latest.raw 40G
 ```
-For the first time
+**start machine**
 ```
 qemu-system-aarch64 \
 -monitor stdio \
