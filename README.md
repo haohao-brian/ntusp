@@ -25,5 +25,4 @@ qemu-system-aarch64 \
 -drive file=ubuntu-latest.raw,format=raw,if=virtio,cache=writethrough \
 -cdrom ubuntu-24.04.2-live-server-arm64.iso
 ```
-
-<img width="601" alt="image" src="https://github.com/user-attachments/assets/f1435437-3b75-4c39-88a9-1f05b25dafc2" />
+<img width="1275" alt="image" src="https://github.com/user-attachments/assets/d432c6a2-ea38-4cfe-8c40-8680f58e393b" />
