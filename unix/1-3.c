@@ -1,4 +1,4 @@
-// list all the file name uder path
+//Figure 1.3 List all the files in a directory
 
 #include "apue.h"
 #include <dirent.h>
